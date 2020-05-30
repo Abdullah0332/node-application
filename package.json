@@ -1,0 +1,47 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node Guide ",
+  "main": "app.js",
+  "engines": {
+    "node": "12.13.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.0",
+    "express-validation": "^3.0.2",
+    "express-validator": "^6.4.0",
+    "fast-csv": "^4.1.1",
+    "helmet": "^3.22.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "parser": "^0.1.4",
+    "pdfkit": "^0.11.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.5",
+    "stripe": "^8.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Abdullah",
+  "license": "ISC"
+}
