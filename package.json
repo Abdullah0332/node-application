@@ -19,7 +19,7 @@
     "express-session": "^1.17.0",
     "express-validation": "^3.0.2",
     "express-validator": "^6.4.0",
-    "fast-csv": "^4.1.1",
+    "fast-csv": "^4.3.6",
     "helmet": "^3.22.0",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7",
